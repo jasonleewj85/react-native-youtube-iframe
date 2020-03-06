@@ -7,7 +7,8 @@ import React, {
   useState,
 } from 'react';
 import {View, StyleSheet} from 'react-native';
-import WebView from 'react-native-webview';
+// import WebView from 'react-native-webview';
+import WebView from 'react-native-android-fullscreen-webview-video';
 import {PLAYER_STATES, PLAYER_ERROR} from './constants';
 import {EventEmitter} from 'events';
 import {MAIN_SCRIPT, PLAYER_FUNCTIONS} from './PlayerScripts';
