@@ -162,7 +162,7 @@ const YoutubeIframe = (
   );
 
   return (
-    <View style={{height, width}}>
+    <View style={{ flex: 1 }}>
       <WebView
         style={[styles.webView, webViewStyle]}
         ref={webViewRef}
